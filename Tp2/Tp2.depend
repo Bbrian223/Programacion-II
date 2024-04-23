@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1713748526 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp2\main.cpp
+	<iostream>
+	<cstring>
+	"articulo.h"
+	"funciones.h"
+
+1713748512 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp2\articulo.cpp
+	"articulo.h"
+	<iostream>
+	<cstring>
+
+1713748503 c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp2\articulo.h
+
+1713748503 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp2\funciones.cpp
+	"funciones.h"
+	<iostream>
+	<cstring>
+
+1713748503 c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp2\funciones.h
+	"articulo.h"
+

@@ -41,7 +41,7 @@ void Fecha::Cargar(int dia, int mes, int anio){
 }
 
 void Fecha::Mostrar(){
-    cout<<endl;
+
     cout<<(_Dia <= 9 ? "0":"")<<_Dia<<"/";
     cout<<(_Mes <= 9 ? "0":"")<<_Mes<<"/";
     cout<<_Anio<<endl;

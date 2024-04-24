@@ -4,23 +4,23 @@
 class Cliente{
 private:
 
-    char _dni[8];
-    Fecha _fechaNacimiento;
+    char _Dni[10]={};
+    Fecha _FechaNacimiento;
     char _Nombre[30];
     char _Apellido[30];
     char _Email[50];
     char _Tel[10];
 
-    void setDni(long dni);
+    void setDni(const char* dni);
     void setFecha(Fecha fechaNac);
     void setNombre(const char* nombre);
     void setApellido(const char* apellido);
     void setEmail(const char* email);
-    void setTel(long tel);
+    void setTel(const char* tel);
 
 public:
 
-    Cliente(Fecha fechaNac, const char* dni="xxxxxxxx", const char* nombre="invalid", const char* apellido="invalid", const char* email="invalid", const char* tel="xxxxxxxxxx");
+    Cliente(const char* dni="S/D", Fecha fechaNac=Fecha(), const char* nombre="S/N", const char* apellido="S/A", const char* email="S/E", const char* tel="S/T");
     Cliente(char* nombre);
 
     const char* getDni();
@@ -30,7 +30,7 @@ public:
     const char* getEmail();
     const char* getTel();
 
-    void Cargar(const char* dni, Fecha fecha, const char* nombre, const char* apellido, const char* email, const char* tel);
+    void Cargar(const char* dni, Fecha fechaNac, const char* nombre, const char* apellido, const char* email, const char* tel);
     void Mostrar();
 
 

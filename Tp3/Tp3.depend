@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1713754696 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\funciones.cpp
+
+1584205420 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\main.cpp
+	<iostream>
+
+1713754740 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\fecha.cpp
+	"fecha.h"
+	"iostream"
+
+1713754694 c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\fecha.h
+
+1713756057 source:c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\cliente.cpp
+	"Cliente.h"
+
+1713756683 c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\cliente.h
+	"fecha.h"
+

@@ -18,35 +18,11 @@ void cargarCadena(char *palabra, int tamano){
     fflush(stdin);
 }
 
-void CargaClientes(Cliente *clte, int tam){
-    Fecha fechaClte;
-    int dia, mes, anio;
-    char dni[8]={}, nombre[30]={},apellido[30]={},email[50]={},tel[10]={};
+void CargarListaClientes(Cliente *clte, int tam){
 
     for(int i=0; i<tam; i++){
-        cout<<"Nombre: ";
-        cargarCadena(nombre,30);
-        cout<<"Apellido: ";
-        cargarCadena(apellido,30);
-        cout<<"Fecha de nacimiento:"<<endl;
-        cout<<"Dia: ";
-        cin>>dia;
-        cout<<"mes: ";
-        cin>> mes;
-        cout<<"Anio: ";
-        cin>>anio;
-
-        fechaClte.Cargar(dia,mes,anio);
-
-        cout<<"Dni: ";
-        cargarCadena(dni,8);
-        cout<<"Email: ";
-        cargarCadena(email,50);
-        cout<<"Telefono: ";
-        cargarCadena(tel,10);
+        clte[i].Cargar();
         cout<<endl;
-
-        clte[i].Cargar(dni,fechaClte,nombre,apellido,email,tel);
     }
 }
 
@@ -57,3 +33,47 @@ void MostrarListaClientes(Cliente *clte, int tam){
     }
 }
 
+void CltesDniMenoresA(Cliente *clte, int tam){
+    char dni[9];
+    int status;
+
+    cout<<"Numero de Dni max: ";
+    cargarCadena(dni,8);
+    cout<<endl;
+
+    for(int i=0; i<tam; i++){
+        status = strcmp(dni,clte[i].getDni());
+        if(status <= 0) continue;
+
+        clte[i].Mostrar();
+        cout<<endl<<endl;
+    }
+}
+
+int CltesDniPos(Cliente *clte, int tam, const char *dni){
+    int status;
+
+    for(int i=0; i<tam; i++){
+        status = strcmp(dni,clte[i].getDni());
+        if(status == 0) return i;
+
+    }
+
+    return -1;
+}
+
+Cliente BuscarCltePorDni(Cliente *clte, int tam, const char *dni){
+    Cliente aux;
+    aux.setDni("-1");
+    int status;
+
+    for(int i=0; i<tam; i++){
+        status = strcmp(dni,clte[i].getDni());
+        if(status == 0){
+            aux = clte[i];
+            break;
+        }
+    }
+
+    return aux;
+}

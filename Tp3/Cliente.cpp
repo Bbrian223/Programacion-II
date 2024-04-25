@@ -1,6 +1,7 @@
 #include "Cliente.h"
 #include <iostream>
 #include <cstring>
+#include "funciones.h"
 
 using namespace std;
 
@@ -53,13 +54,19 @@ const char* Cliente::getApellido(){return _Apellido;}
 const char* Cliente::getEmail(){return _Email;}
 const char* Cliente::getTel(){return _Tel;}
 
-void Cliente::Cargar(const char* dni, Fecha fechaNac, const char* nombre, const char* apellido, const char* email, const char* tel){
-    setDni(dni);
-    setFecha(fechaNac);
-    setNombre(nombre);
-    setApellido(apellido);
-    setEmail(email);
-    setTel(tel);
+void Cliente::Cargar(){
+    cout<<"Nombre: ";
+    cargarCadena(_Nombre,29);
+    cout<<"Apellido: ";
+    cargarCadena(_Apellido,29);
+    cout<<"Fecha de nacimiento: "<<endl;
+    _FechaNacimiento.Cargar();
+    cout<<"Dni: ";
+    cargarCadena(_Dni,8);
+    cout<<"Email: ";
+    cargarCadena(_Email,49);
+    cout<<"Telefono: ";
+    cargarCadena(_Tel,10);
 }
 
 void Cliente::Mostrar(){

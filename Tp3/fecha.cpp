@@ -34,10 +34,13 @@ int Fecha::getMes(){ return _Mes;}
 
 int Fecha::getAnio(){ return _Anio;}
 
-void Fecha::Cargar(int dia, int mes, int anio){
-    setDia(dia);
-    setMes(mes);
-    setAnio(anio);
+void Fecha::Cargar(){
+    cout<<"Dia: ";
+    cin>>_Dia;
+    cout<<"Mes: ";
+    cin>>_Mes;
+    cout<<"Anio: ";
+    cin>>_Anio;
 }
 
 void Fecha::Mostrar(){

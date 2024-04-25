@@ -19,6 +19,6 @@ public:
     int getMes();
     int getAnio();
 
-    void Cargar(int dia, int mes, int anio);
+    void Cargar();
     void Mostrar();
 };

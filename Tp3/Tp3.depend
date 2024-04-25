@@ -16,31 +16,33 @@
 1713756683 c:\users\bbarrera\desktop\facultad\programas\poo\tp2\tp3\cliente.h
 	"fecha.h"
 
-1713925443 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\cliente.cpp
+1714008225 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\cliente.cpp
 	"Cliente.h"
 	<iostream>
 	<cstring>
+	"funciones.h"
 
-1713925772 c:\users\bbarrera\documents\github\programacion-ii\tp3\cliente.h
+1714013257 c:\users\bbarrera\documents\github\programacion-ii\tp3\cliente.h
 	"fecha.h"
 
-1713754694 c:\users\bbarrera\documents\github\programacion-ii\tp3\fecha.h
+1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp3\fecha.h
 
-1713927274 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.cpp
+1714013427 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.cpp
 	"funciones.h"
 	<cstring>
 	<iostream>
 
-1713927798 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\main.cpp
+1714013566 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\main.cpp
 	<iostream>
 	"Cliente.h"
 	"funciones.h"
+	<cstring>
 
-1713920237 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\fecha.cpp
+1714008113 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\fecha.cpp
 	"fecha.h"
 	"iostream"
 
-1713921681 c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.h
+1714013421 c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.h
 	"fecha.h"
 	"Cliente.h"
 

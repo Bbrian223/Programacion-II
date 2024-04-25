@@ -27,12 +27,12 @@
 
 1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp3\fecha.h
 
-1714013427 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.cpp
+1714013725 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\funciones.cpp
 	"funciones.h"
 	<cstring>
 	<iostream>
 
-1714013566 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\main.cpp
+1714065996 source:c:\users\bbarrera\documents\github\programacion-ii\tp3\main.cpp
 	<iostream>
 	"Cliente.h"
 	"funciones.h"

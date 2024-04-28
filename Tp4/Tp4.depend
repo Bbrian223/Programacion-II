@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1714337736 source:c:\users\bbarrera\documents\github\programacion-ii\tp4\empleados.cpp
+	"empleados.h"
+	<cstring>
+	<iostream>
+	"funciones.h"
+
+1714008113 source:c:\users\bbarrera\documents\github\programacion-ii\tp4\fecha.cpp
+	"fecha.h"
+	"iostream"
+
+1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp4\fecha.h
+
+1714334152 source:c:\users\bbarrera\documents\github\programacion-ii\tp4\funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1714333944 c:\users\bbarrera\documents\github\programacion-ii\tp4\funciones.h
+
+1714337756 source:c:\users\bbarrera\documents\github\programacion-ii\tp4\main.cpp
+	<iostream>
+	"funciones.h"
+	"empleados.h"
+
+1714337309 source:c:\users\bbarrera\documents\github\programacion-ii\tp4\persona.cpp
+	"persona.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+
+1714337309 c:\users\bbarrera\documents\github\programacion-ii\tp4\persona.h
+	"fecha.h"
+
+1714337714 c:\users\bbarrera\documents\github\programacion-ii\tp4\empleados.h
+	"persona.h"
+

@@ -41,10 +41,14 @@ void Persona::setFechaNacimiento(Fecha fechaNac){
 }
 
 void Persona::Cargar(){
+    int dni;
     cout<<"Nombre: ";
     CargarCadena(_nombre,29);
     cout<<"Apellido: ";
     CargarCadena(_apellido,29);
+    cout<<"Dni: ";
+    cin>>dni;
+    setDni(dni);
     cout<<"Domicilio: ";
     CargarCadena(_domicilio,49);
     cout<<"fecha de nacimiento: "<<endl;
@@ -54,6 +58,7 @@ void Persona::Cargar(){
 void Persona::MostrarP(){
     cout<<"Nombre: "<<_nombre<<endl;
     cout<<"Apellido: "<<_apellido<<endl;
+    cout<<"Dni: "<<_dni<<endl;
     cout<<"Domicilio: "<<_domicilio<<endl;
     cout<<"Fecha de nacimiento: ";
     _fechaNacimiento.Mostrar();

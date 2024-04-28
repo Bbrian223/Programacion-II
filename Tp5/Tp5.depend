@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1714008113 source:c:\users\bbarrera\documents\github\programacion-ii\tp5\fecha.cpp
+	"fecha.h"
+	"iostream"
+
+1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp5\fecha.h
+
+1714342279 source:c:\users\bbarrera\documents\github\programacion-ii\tp5\investigador.cpp
+	"investigador.h"
+	<iostream>
+
+1714342279 c:\users\bbarrera\documents\github\programacion-ii\tp5\investigador.h
+	"persona.h"
+
+1714337309 c:\users\bbarrera\documents\github\programacion-ii\tp5\persona.h
+	"fecha.h"
+
+1714342534 source:c:\users\bbarrera\documents\github\programacion-ii\tp5\main.cpp
+	<iostream>
+	"investigador.h"
+	"funciones.h"
+
+1714342518 source:c:\users\bbarrera\documents\github\programacion-ii\tp5\funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1714342534 c:\users\bbarrera\documents\github\programacion-ii\tp5\funciones.h
+	"investigador.h"
+
+1714339832 source:c:\users\bbarrera\documents\github\programacion-ii\tp5\persona.cpp
+	"persona.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+

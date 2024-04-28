@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-    Empleado empl;
+    const int tam = 2;
+    Empleado empl[tam];
     int opc;
 
     while(true){
@@ -23,19 +24,19 @@ int main()
 
         switch(opc){
         case 1:
-            empl.Cargar();
+            CargarEmpleados(empl,tam);
             break;
         case 2:
-            empl.Mostrar();
+            MostrarEmpleados(empl,tam);
             break;
         case 3:
-            empl.MostrarP();
+            MostrarDatosPers(empl);
             break;
         case 4:
-            char direccion[50];
-            cout<<"direccion: ";
-            CargarCadena(direccion,49);
-            empl.CambiarDom(direccion);
+            int num;
+            cout<<"Numero de empleado: ";
+            cin>>num;
+            CambiarDomicilio(empl, num-1);
             break;
         case 0:
             return 0;

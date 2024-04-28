@@ -49,3 +49,7 @@ void Empleado::Mostrar(){
     cout<<"Email: "<<_email<<endl;
     cout<<"Cargo: "<<_cargo<<endl;
 }
+
+void Empleado::MostrarDatosPers(){
+    Persona::MostrarP();
+}

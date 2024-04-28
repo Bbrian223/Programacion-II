@@ -17,3 +17,34 @@ void CargarCadena(char *palabra, int tam){
     fflush(stdin);
 }
 
+void CargarEmpleados(Empleado *empl, int tam){
+    for(int i=0; i<tam; i++){
+        empl[i].Cargar();
+        cout<<endl;
+    }
+}
+
+void MostrarEmpleados(Empleado *empl, int tam){
+    for(int i=0; i<tam; i++){
+        empl[i].Mostrar();
+        cout<<endl;
+    }
+}
+
+void MostrarDatosPers(Empleado *empl){
+    int num;
+
+    cout<<"Numero de empleado : ";
+    cin>>num;
+
+    empl[num-1].MostrarDatosPers();
+
+}
+
+void CambiarDomicilio(Empleado *empl, int num){
+    char direccion[50];
+    cout<<"direccion: ";
+    CargarCadena(direccion,49);
+    empl[num].CambiarDom(direccion);
+}
+

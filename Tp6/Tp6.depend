@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1714444007 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\direccion.cpp
+	"direccion.h"
+	"funciones.h"
+	<cstring>
+	<iostream>
+
+1714356785 c:\users\bbarrera\documents\github\programacion-ii\tp6\direccion.h
+
+1714355061 c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.h
+
+1714008113 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\fecha.cpp
+	"fecha.h"
+	"iostream"
+
+1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp6\fecha.h
+
+1714355080 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1714443939 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\main.cpp
+	<iostream>
+	"direccion.h"
+
+1714443816 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.cpp
+	"inmuebles.h"
+	<cstring>
+	<iostream>
+	"funciones.h"
+
+1714443820 c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.h
+	"direccion.h"
+	"fecha.h"
+

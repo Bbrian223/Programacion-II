@@ -7,7 +7,7 @@
 
 1714356785 c:\users\bbarrera\documents\github\programacion-ii\tp6\direccion.h
 
-1714355061 c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.h
+1714793386 c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.h
 
 1714008113 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\fecha.cpp
 	"fecha.h"
@@ -15,15 +15,19 @@
 
 1714008119 c:\users\bbarrera\documents\github\programacion-ii\tp6\fecha.h
 
-1714355080 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.cpp
+1714793304 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\funciones.cpp
 	"funciones.h"
 	<iostream>
 
-1714791797 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\main.cpp
+1714793426 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\main.cpp
 	<iostream>
+	"funciones.h"
+	"casa.h"
+	"departamento.h"
+	"locales.h"
 	"terreno.h"
 
-1714771920 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.cpp
+1714792007 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.cpp
 	"inmuebles.h"
 	<cstring>
 	<iostream>
@@ -40,7 +44,7 @@
 1714771533 c:\users\bbarrera\documents\github\programacion-ii\tp6\casa.h
 	"inmuebles.h"
 
-1714790152 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\departamento.cpp
+1714793586 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\departamento.cpp
 	"departamento.h"
 	<iostream>
 

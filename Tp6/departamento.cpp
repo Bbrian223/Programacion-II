@@ -22,8 +22,22 @@ int Departamento::getAmbientes(){return _ambientes;}
 
 bool Departamento::getInstComplementarias(){return _instComplementarias;}
 
+void Departamento::CargarDep(){
+    int amb;
+    bool instComp;
+
+    Inmueble::CargarInm();
+    cout<<"Cantidad de Ambientes: ";
+    cin>>amb;
+    cout<<"Instalaciones complementarias: ";
+    cin>>instComp;
+
+    setAmbientes(amb);
+    setInstComplementarias(instComp);
+}
+
 void Departamento::MostrarDep(){
     Inmueble::MostrarInm();
     cout<<"Cantidad de ambientes: "<<_ambientes<<endl;
-    cout<<(_instComplementarias == true ? "Si": "No")<<endl;
+    cout<<"Instalaciones complementarias: "<<(_instComplementarias == true ? "Si": "No")<<endl;
 }

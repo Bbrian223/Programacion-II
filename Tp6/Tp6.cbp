@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="casa.cpp" />
 		<Unit filename="casa.h" />
+		<Unit filename="departamento.cpp" />
+		<Unit filename="departamento.h" />
 		<Unit filename="direccion.cpp" />
 		<Unit filename="direccion.h" />
 		<Unit filename="fecha.cpp" />
@@ -42,7 +44,11 @@
 		<Unit filename="funciones.h" />
 		<Unit filename="inmuebles.cpp" />
 		<Unit filename="inmuebles.h" />
+		<Unit filename="locales.cpp" />
+		<Unit filename="locales.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="terreno.cpp" />
+		<Unit filename="terreno.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

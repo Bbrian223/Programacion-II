@@ -17,4 +17,20 @@ void CargarCadena(char *palabra, int tam){
     fflush(stdin);
 }
 
+int opciones(){
+    int opc;
+
+    system("cls");
+    cout<<"----opcciones:----"<<endl;
+    cout<<"1- Casa"<<endl;
+    cout<<"2- Departamento "<<endl;
+    cout<<"3- Local"<<endl;
+    cout<<"4- Terreno"<<endl;
+    cout<<"------------------"<<endl;
+    cout<<"Opcion: "<<endl;
+    cin>>opc;
+    system("cls");
+
+    return opc;
+}
 

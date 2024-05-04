@@ -33,13 +33,3 @@ public:
     void MostrarInm();
 
 };
-
-/**5)Una inmobiliaria opera con distintos tipos de inmuebles.
-Para todos ellos registra los siguientes datos:
-
-Dirección (calle, número, código postal, localidad, piso, etc.)
-Fecha de ingreso
-Fecha de operación
-Superficie total
-Tipo de operación (1: venta; 2: alquiler)
-*/

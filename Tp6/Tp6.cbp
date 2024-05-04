@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="casa.cpp" />
+		<Unit filename="casa.h" />
 		<Unit filename="direccion.cpp" />
 		<Unit filename="direccion.h" />
 		<Unit filename="fecha.cpp" />

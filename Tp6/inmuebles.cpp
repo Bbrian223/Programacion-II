@@ -78,7 +78,7 @@ void Inmueble::MostrarInm(){
     _fechaIngreso.Mostrar();
     cout<<"Fecha de Operacion: ";
     _fechaOperacion.Mostrar();
-    cout<<"Superficie total: "<<_superficieTotal<<endl;
+    cout<<"Superficie total: "<<_superficieTotal<<" m2"<<endl;
     cout<<"Tipo de operacion: "<<_tipo<<endl;
 }
 

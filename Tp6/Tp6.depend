@@ -19,9 +19,9 @@
 	"funciones.h"
 	<iostream>
 
-1714443939 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\main.cpp
+1714771796 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\main.cpp
 	<iostream>
-	"direccion.h"
+	"casa.h"
 
 1714443816 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.cpp
 	"inmuebles.h"
@@ -29,7 +29,14 @@
 	<iostream>
 	"funciones.h"
 
-1714443820 c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.h
+1714771144 c:\users\bbarrera\documents\github\programacion-ii\tp6\inmuebles.h
 	"direccion.h"
 	"fecha.h"
+
+1714771754 source:c:\users\bbarrera\documents\github\programacion-ii\tp6\casa.cpp
+	"casa.h"
+	<iostream>
+
+1714771533 c:\users\bbarrera\documents\github\programacion-ii\tp6\casa.h
+	"inmuebles.h"
 

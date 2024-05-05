@@ -89,9 +89,13 @@ int ArchivoEmpresa::buscarIndice(int num){
 
     while(fread(&reg,sizeof(reg),1,pFile) == 1){
 
-        if(reg.getNumero() == num) return pos;
+        if(reg.getNumero() == num) {
+		fclose(pFile);
+		return pos;
+	}
         pos++;
     }
-
+	
+    fclose(pFile);
     return -1;
 }

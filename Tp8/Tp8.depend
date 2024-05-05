@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1714934381 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\archivoempresa.cpp
+	"archivoEmpresa.h"
+	<iostream>
+	<cstring>
+
+1714874331 c:\users\bbarrera\documents\github\programacion-ii\tp8\archivoempresa.h
+	"empresa.h"
+
+1714868425 c:\users\bbarrera\documents\github\programacion-ii\tp8\empresa.h
+
+1714940780 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\empresa.cpp
+	"empresa.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+	"archivoMunicipio.h"
+
+1714941683 c:\users\bbarrera\documents\github\programacion-ii\tp8\funciones.h
+
+1714941903 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\funciones.cpp
+	"funciones.h"
+	"empresa.h"
+	"archivoEmpresa.h"
+	"archivoMunicipio.h"
+	<iostream>
+
+1714941689 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\main.cpp
+	<iostream>
+	"funciones.h"
+
+1714935210 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\municipio.cpp
+	"municipio.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+
+1714935586 c:\users\bbarrera\documents\github\programacion-ii\tp8\municipio.h
+
+1714939796 c:\users\bbarrera\documents\github\programacion-ii\tp8\archivomunicipio.h
+	"municipio.h"
+
+1714939811 source:c:\users\bbarrera\documents\github\programacion-ii\tp8\archivomunicipio.cpp
+	"archivoMunicipio.h"
+	<iostream>
+	<cstring>
+

@@ -21,7 +21,13 @@ int main()
         switch(opc){
 
         case 1:
-            GrabarRegistro();
+            cout<<"1- grabar 1 registro"<<endl;
+            cout<<"2- grabar 5 registros"<<endl;
+            cin>>opc;
+            system("cls");
+
+            if(opc == 1)GrabarRegistro();
+            else GrabarVariosRegistros();
             break;
         case 2:
             ListarRegistros();

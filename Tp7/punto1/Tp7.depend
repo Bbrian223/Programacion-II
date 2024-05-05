@@ -43,15 +43,15 @@
 	<iostream>
 	<cstring>
 
-1714875979 c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\funciones.h
+1714877126 c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\funciones.h
 
-1714875968 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\funciones.cpp
+1714877189 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\funciones.cpp
 	"funciones.h"
 	"empresa.h"
 	"archivoEmpresa.h"
 	<iostream>
 
-1714875974 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\main.cpp
+1714877269 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto1\main.cpp
 	<iostream>
 	"funciones.h"
 

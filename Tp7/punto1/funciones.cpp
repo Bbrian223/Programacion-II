@@ -30,6 +30,21 @@ void GrabarRegistro(){
     if(!status) exit(10);
 }
 
+void GrabarVariosRegistros(){
+    ArchivoEmpresa arch("empresas.dat");
+    Empresa reg[5];
+    bool status;
+
+    for(int i=0; i<5; i++){
+        reg[i].Cargar();
+        cout<<endl;
+        status = arch.grabarRegistro(reg[i]);
+
+        if(!status) exit(10);
+    }
+
+}
+
 void ListarRegistros(){
     ArchivoEmpresa arch("empresas.dat");
     bool status;

@@ -13,5 +13,9 @@ public:
 
     bool grabarRegistro(Empresa reg);
     bool listarRegistros();
+    int cantidadRegitros();
+    Empresa buscarRegistro(int pos);
 
 };
+
+

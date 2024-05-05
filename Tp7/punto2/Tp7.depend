@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1714869632 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\empresa.cpp
+	"empresa.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+
+1714868425 c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\empresa.h
+
+1714883898 c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\funciones.h
+
+1714886416 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\funciones.cpp
+	"funciones.h"
+	"empresa.h"
+	"archivoEmpresa.h"
+	<iostream>
+
+1714882591 c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\archivoempresa.h
+	"empresa.h"
+
+1714886301 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\main.cpp
+	<iostream>
+	"funciones.h"
+
+1714884827 source:c:\users\bbarrera\documents\github\programacion-ii\tp7\punto2\archivoempresa.cpp
+	"archivoEmpresa.h"
+	<iostream>
+	<cstring>
+

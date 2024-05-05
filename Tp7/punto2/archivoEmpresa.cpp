@@ -38,3 +38,29 @@ bool ArchivoEmpresa::listarRegistros(){
     return true;
 }
 
+int ArchivoEmpresa::cantidadRegitros(){
+    FILE* pFile;
+    int tam=5;
+
+    pFile = fopen(_nombre,"rb");
+    if(pFile == nullptr) return -1;
+    fseek(pFile,0,SEEK_END);
+    tam = ftell(pFile) / sizeof(Empresa);
+
+    return tam;
+}
+
+Empresa ArchivoEmpresa::buscarRegistro(int pos){
+    FILE* pFile;
+    Empresa reg;
+
+    pFile = fopen(_nombre,"rb");
+    if(pFile == nullptr) return reg;
+
+    fseek(pFile,sizeof(reg)*pos,SEEK_SET);
+    fread(&reg,sizeof(reg),1,pFile);
+    fclose(pFile);
+
+    return reg;
+}
+

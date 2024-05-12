@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1715482690 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.cpp
+	"archivoEmpresa.h"
+	<iostream>
+	<cstring>
+
+1715485596 c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.h
+	"empresa.h"
+
+1715480240 c:\users\bbarrera\documents\github\programacion-ii\tp9\empresa.h
+
+1715485446 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\archivomunicipio.cpp
+	"archivoMunicipio.h"
+	<iostream>
+	<cstring>
+
+1714939796 c:\users\bbarrera\documents\github\programacion-ii\tp9\archivomunicipio.h
+	"municipio.h"
+
+1714935586 c:\users\bbarrera\documents\github\programacion-ii\tp9\municipio.h
+
+1715480372 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\empresa.cpp
+	"empresa.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+	"archivoMunicipio.h"
+
+1715482268 c:\users\bbarrera\documents\github\programacion-ii\tp9\funciones.h
+
+1715482146 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\municipio.cpp
+	"municipio.h"
+	"funciones.h"
+	<iostream>
+	<cstring>
+
+1715485817 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\funciones.cpp
+	"funciones.h"
+	"empresa.h"
+	"archivoEmpresa.h"
+	"archivoMunicipio.h"
+	"archivoCategoria.h"
+	"categoria.h"
+	<iostream>
+
+1715482304 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\main.cpp
+	<iostream>
+	"funciones.h"
+
+1715485446 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\categoria.cpp
+	"categoria.h"
+	<cstring>
+	<iostream>
+	"funciones.h"
+
+1715479229 c:\users\bbarrera\documents\github\programacion-ii\tp9\categoria.h
+
+1715485531 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\archivocategoria.cpp
+	"archivoCategoria.h"
+	<iostream>
+	<cstring>
+
+1715484750 c:\users\bbarrera\documents\github\programacion-ii\tp9\archivocategoria.h
+	"categoria.h"
+

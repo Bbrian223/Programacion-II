@@ -13,8 +13,12 @@ public:
 
     bool grabarRegistro(Empresa reg);
     bool listarRegistros();
-    int buscarIndice(int num);
-    Empresa buscarRegistro(int indice);
-    int cantidadRegitros();
+    int buscarIndice(int num, const char* nombre = "empresas.dat");
+    Empresa buscarRegistro(int indice, const char* nombre = "empresas.dat");
+    int cantidadRegitros(const char* nombre = "empresas.dat");
+
+    bool grabarRegistro(const char* nombre, Empresa reg);
+    bool listarRegistros(const char* nombre);
+
 
 };

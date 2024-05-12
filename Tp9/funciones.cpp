@@ -164,7 +164,36 @@ void CategoriaMasEmpresaas(){
 }
 
 void EmpresasCategQuince(){
+    ArchivoEmpresa arch;
+    Empresa reg;
+    int cant, indice, pos, status;
 
+    cant = arch.cantidadRegitros();
+    for(int i=0; i<cant; i++){
+        reg = arch.buscarRegistro(i);
+        pos = arch.buscarIndice(reg.getNumero(),"empresas_cat_15.dat");
+
+        if(pos != -1 || reg.getCategoria() != 15) continue;
+
+        status = arch.grabarRegistro("empresas_cat_15.dat",reg);
+        if(!status) exit(-15);
+    }
+
+    status = arch.listarRegistros("empresas_cat_15.dat");
+    if(!status) exit(-11);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

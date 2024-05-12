@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1715482690 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.cpp
+1715543414 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.cpp
 	"archivoEmpresa.h"
 	<iostream>
 	<cstring>
 
-1715485596 c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.h
+1715543367 c:\users\bbarrera\documents\github\programacion-ii\tp9\archivoempresa.h
 	"empresa.h"
 
 1715480240 c:\users\bbarrera\documents\github\programacion-ii\tp9\empresa.h
@@ -34,7 +34,7 @@
 	<iostream>
 	<cstring>
 
-1715485817 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\funciones.cpp
+1715543194 source:c:\users\bbarrera\documents\github\programacion-ii\tp9\funciones.cpp
 	"funciones.h"
 	"empresa.h"
 	"archivoEmpresa.h"

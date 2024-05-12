@@ -38,11 +38,28 @@ bool ArchivoEmpresa::listarRegistros(){
     return true;
 }
 
-Empresa ArchivoEmpresa::buscarRegistro(int indice){
+bool ArchivoEmpresa::listarRegistros(const char* nombre){
     FILE* pFile;
     Empresa reg;
 
-    pFile = fopen(_nombre,"rb");
+    pFile = fopen(nombre,"rb");
+    if(pFile == nullptr) return false;
+
+    while(fread(&reg,sizeof(reg),1,pFile) == 1){
+        reg.Mostrar();
+        cout<<endl;
+    }
+
+    fclose(pFile);
+
+    return true;
+}
+
+Empresa ArchivoEmpresa::buscarRegistro(int indice, const char* nombre){
+    FILE* pFile;
+    Empresa reg;
+
+    pFile = fopen(nombre,"rb");
     if(pFile == nullptr) return reg;
 
     fseek(pFile,sizeof(reg)*indice,SEEK_SET);
@@ -52,14 +69,48 @@ Empresa ArchivoEmpresa::buscarRegistro(int indice){
     return reg;
 }
 
-int ArchivoEmpresa::cantidadRegitros(){
+int ArchivoEmpresa::cantidadRegitros(const char* nombre){
     FILE* pFile;
     int tam=5;
 
-    pFile = fopen(_nombre,"rb");
-    if(pFile == nullptr) return -1;
+    pFile = fopen(nombre,"rb");
+    if(pFile == nullptr) return 0;
     fseek(pFile,0,SEEK_END);
     tam = ftell(pFile) / sizeof(Empresa);
 
     return tam;
+}
+
+bool ArchivoEmpresa::grabarRegistro(const char* nombre, Empresa reg){
+    FILE* pFile;
+    bool status;
+
+    pFile = fopen(nombre,"ab");
+    if(pFile == nullptr) return false;
+
+    status = fwrite(&reg,sizeof(reg),1,pFile);
+    fclose(pFile);
+
+    return status;
+}
+
+int ArchivoEmpresa::buscarIndice(int num, const char* nombre){
+    FILE* pFile;
+    Empresa reg;
+    int pos = 0;
+
+    pFile = fopen(nombre,"rb");
+    if(pFile == nullptr) return -1;
+
+    while(fread(&reg,sizeof(reg),1,pFile) == 1){
+
+        if(reg.getNumero() == num){
+            fclose(pFile);
+            return pos;
+        }
+        pos++;
+    }
+
+    fclose(pFile);
+    return -1;
 }

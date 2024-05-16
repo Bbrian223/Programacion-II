@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1715569276 source:c:\users\bbarrera\documents\github\programacion-ii\modelo-examen\main.cpp
+	<iostream>
+	<cstring>
+	"parcialm1.h"
+
+1715567071 c:\users\bbarrera\documents\github\programacion-ii\modelo-examen\parcialm1.h
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1715642229 source:c:\users\bbarrera\documents\github\programacion-ii\barrera_brian\main.cpp
+	<iostream>
+	<cstring>
+	"parcial1l.h"
+
+1715641457 c:\users\bbarrera\documents\github\programacion-ii\barrera_brian\parcial1l.h
+
